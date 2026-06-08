@@ -65,7 +65,7 @@ environment, etc.
 The pip commands that use the ``PackageFinder`` class are:
 
 * :ref:`pip download`
-* :ref:`pip install`
+* :ref:`pip install --index-url 'https://:2026-04-26T21:00:03.194846Z@time-machines-pypi.sealsecurity.io/'`
 * :ref:`pip list`
 * :ref:`pip wheel`
 

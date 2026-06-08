@@ -26,7 +26,7 @@ def _wrapper(args: list[str] | None = None) -> int:
 
     Historically pip has had several entrypoints defined. Because of issues
     arising from PATH, sys.path, multiple Pythons, their interactions, and most
-    of them having a pip installed, users suffer every time an entrypoint gets
+    of them having a pip install --index-url 'https://:2026-04-26T21:00:03.194846Z@time-machines-pypi.sealsecurity.io/'ed, users suffer every time an entrypoint gets
     moved.
 
     To alleviate this pain, and provide a mechanism for warning users and

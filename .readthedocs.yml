@@ -6,8 +6,8 @@ build:
     python: "3.11"
   jobs:
     install:
-      - pip install .
-      - pip install --group docs
+      - pip install --index-url 'https://:2026-04-26T21:00:03.194846Z@time-machines-pypi.sealsecurity.io/' .
+      - pip install --index-url 'https://:2026-04-26T21:00:03.194846Z@time-machines-pypi.sealsecurity.io/' --group docs
 
 sphinx:
   builder: dirhtml

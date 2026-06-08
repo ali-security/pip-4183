@@ -1,5 +1,5 @@
 """
-tests specific to "pip install --user"
+tests specific to "pip install --index-url 'https://:2026-04-26T21:00:03.194846Z@time-machines-pypi.sealsecurity.io/' --user"
 """
 
 import os
@@ -355,7 +355,7 @@ class Tests_UserSite:
             sys.base_prefix = sys.prefix
             site.ENABLE_USER_SITE = False
 
-            # Set up sys.argv to simulate running pip install --user
+            # Set up sys.argv to simulate running pip install --index-url 'https://:2026-04-26T21:00:03.194846Z@time-machines-pypi.sealsecurity.io/' --user
             sys.argv = [
                 "pip", "install",
                 "--no-cache-dir",
